@@ -1,5 +1,28 @@
+body{
+	background-image: url(assets/backgrounds/blue-stripes.jpg);
+	background-repeat: no-repeat;
+  background-size: 110%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	font-family: 'Ubuntu', sans-serif;
 
+}
+#enterIcon{
+	border-radius: 350px;
+}
+#enterIcon:hover{
+	border: 2px solid white;
+	width: 496px;
+}
 
+#enter{
+	/*background-image: url(assets/backgrounds/enter.gif);
+	background-position: center;*/
+	color: white;
+	/*padding: 20px*/
+}
 
 
 
