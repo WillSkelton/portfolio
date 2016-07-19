@@ -1,0 +1,10 @@
+body{
+	background-image: url(assets/backgrounds/blue-stripes.jpg);
+	background-repeat: no-repeat;
+  background-size: 110%;
+	position: fixed;
+}
+
+/*p{
+	font-family: 'Ubuntu', sans-serif;
+}*/
