@@ -4,7 +4,44 @@ body{
   background-size: 110%;
 	position: fixed;
 }
-
-/*p{
+#social{
 	font-family: 'Ubuntu', sans-serif;
-}*/
+	background-color: rgba(255, 255, 255, 0.0);
+}
+
+#connect{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+
+}
+#generalIcon{
+	border-radius: 100px;
+	width: 75px;
+}
+
+.smallSocial{
+	width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end*/
