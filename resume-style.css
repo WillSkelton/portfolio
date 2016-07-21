@@ -2,6 +2,7 @@ body{
 	background-image: url(assets/backgrounds/blue-stripes.jpg);
 	background-repeat: no-repeat;
   background-size: 110%;
+	background-attachment: fixed;
 	/*position: fixed;*/
 }
 
