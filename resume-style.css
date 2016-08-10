@@ -15,7 +15,7 @@ main{
 
 }
 #social{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: rgba(255, 255, 255, 0.0);
 	left: 20px;
 	top: 20px;
@@ -81,9 +81,32 @@ main{
 	box-sizing: border-box;
 }
 #will{
+	font-family: 'Roboto', sans-serif;
 	color: rgba(200, 200, 200, 1.0);
 }
+#bio{
+	background-color: rgba(200, 200, 200, 1.0);
+	border: 2px solid rgba(84, 0, 122, 1);
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	min-width: 500px;
+	max-width: 1000px;
+	padding: 15px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+#pic{
+	width: 100px;
+
+}
+#school-link{
+	text-decoration: none;
+}
+#school-link:hover{
+	color: rgba(5, 171, 101, 1);
+}
 #resume{
+	font-family: 'Roboto', sans-serif;
 	background-color: rgba(47, 73, 147, 0.5);
 	color: rgba(200, 200, 200, 1.0);
 	border: 2px solid rgba(84, 0, 122, 1);
