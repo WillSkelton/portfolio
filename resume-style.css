@@ -40,8 +40,8 @@ main{
 	margin: 5px;
 	border: 2px solid rgba(84, 0, 122, 1);;
 	border-radius: 10px;
-	width: 50px;
-	height: 200px;
+	width: 80px;
+	height: 250px;
 	padding: 10px;
 	box-sizing: border-box;
 	display: flex;
@@ -52,7 +52,7 @@ main{
 #generalIcon{
 	border: 2px solid rgba(84, 0, 122, 1);;
 	border-radius: 100px;
-	width: 76px;
+	width: 116px;
 	margin: 5px;
 }
 #arrowDown{
@@ -63,7 +63,7 @@ main{
 	width: 50px;
 }
 .smallSocial{
-	width: 50px;
+	width: 0px;
 }
 #title{
 	max-width: 800px;
@@ -73,6 +73,7 @@ main{
 	background-color: rgba(5, 171, 101, .5);
 	border: 2px solid rgba(84, 0, 122, 1);
 	margin: 10px;
+	margin-top: 90px;
 	padding: 5px;
 	display: flex;
 	flex-direction: column;
@@ -88,6 +89,7 @@ main{
 	background-color: rgba(200, 200, 200, 1.0);
 	border: 2px solid rgba(84, 0, 122, 1);
 	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 	border-radius: 2px;
 	min-width: 500px;
 	max-width: 1000px;
@@ -103,12 +105,16 @@ main{
 }
 #school-link{
 	text-decoration: none;
+	color: rgba(47, 73, 147, 1);
 }
 #school-link:hover{
 	color: rgba(5, 171, 101, 1);
+	background-color: rgba(0, 0, 0, 1);
+	font-weight: bold;
 }
 #resume{
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 	background-color: rgba(47, 73, 147, 0.5);
 	color: rgba(200, 200, 200, 1.0);
 	border: 2px solid rgba(84, 0, 122, 1);
