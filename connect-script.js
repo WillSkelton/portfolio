@@ -4,14 +4,14 @@ function expandSocialIcons(){
 	var logoArray = document.getElementsByClassName('smallSocial');
 	if (toggle) {
 		toggle = false;
-		element.style.backgroundColor = "rgba(43, 111, 232, .3)";
+		element.style.backgroundColor = "rgba(5, 171, 101, .6)";
 		element.style.opacity = 1;
-		logoArray[0].style.height = '50px';
-		logoArray[0].style.width = '50px';
-		logoArray[1].style.height = '50px';
-		logoArray[1].style.width = '50px';
-		logoArray[2].style.height = '50px';
-		logoArray[2].style.width = '50px';
+		logoArray[0].style.height = '75px';
+		logoArray[0].style.width = '75px';
+		logoArray[1].style.height = '75px';
+		logoArray[1].style.width = '75px';
+		logoArray[2].style.height = '75px';
+		logoArray[2].style.width = '75px';
 
 	}
 	else {
