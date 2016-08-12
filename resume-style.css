@@ -1,7 +1,7 @@
 body{
 	background-image: url(assets/backgrounds/blue-stripes.jpg);
 	background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: cover;
 	background-attachment: fixed;
 	/*position: fixed;*/
 }
@@ -94,10 +94,12 @@ main{
 	padding: 15px;
 	margin: 10px;
 	box-sizing: border-box;
+	margin: 10px;
 }
 #pic{
 	width: 100px;
-
+	float: left;
+	margin: 10px;
 }
 #school-link{
 	text-decoration: none;
