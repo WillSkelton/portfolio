@@ -103,9 +103,21 @@ main{
 	float: left;
 	margin: 10px;
 }
+.link{
+	text-decoration: none;
+	color: rgba(5, 171, 101, 1);
+
+}
+.link:hover{
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(5, 171, 101, 1);
+	font-weight: bold;
+
+}
 #school-link{
 	text-decoration: none;
 	color: rgba(47, 73, 147, 1);
+
 }
 #school-link:hover{
 	color: rgba(5, 171, 101, 1);
