@@ -128,7 +128,7 @@ main{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	background-color: rgba(47, 73, 147, 0.5);
-	color: rgba(200, 200, 200, 1.0);
+	color: rgba(255, 255, 255, 1);
 	border: 2px solid rgba(84, 0, 122, 1);
 	border-radius: 2px;
 	min-width: 500px;
@@ -151,5 +151,6 @@ main{
 /*rgba(175, 25, 25, 1)*/
 /*rgba(43, 111, 232, 1)*/
 /*rgba(5, 171, 101, 1)*/
+/*rgba(215, 240, 255, 1)*/
 /*rgba(47, 73, 147, 1)*/
-/*end*/
+/*rgba(255, 225, 225, 1)*/

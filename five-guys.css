@@ -3,20 +3,108 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+
 }
 main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+#social{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(255, 255, 255, 0.0);
+	left: 20px;
+	top: 20px;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*z-index: 5;*/
+}
+#contact{
+	color: rgba(200, 200, 200, 1.0);
+	font-size: 10px;
+	margin: 2px;
+}
+#connect{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#socialMediaLogos{
+	opacity: 0;
+	margin: 5px;
+	border: 2px solid rgba(84, 0, 122, 1);;
+	border-radius: 10px;
+	width: 80px;
+	height: 250px;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+#generalIcon{
+	border: 2px solid rgba(84, 0, 122, 1);;
+	border-radius: 100px;
+	width: 116px;
+	margin: 5px;
+}
+.smallSocial{
+	width: 0px;
+}
 
-#five-guys-website{
-	margin: 10px;
+#map{
+	margin: 10px 30px;
+	padding: 0px;
+	box-sizing: border-box;
+	border: 2px solid rgba(84, 0, 122, 1);
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 }
 #five-guys-map{
-	margin: 10px;
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 }
+
+
+#five-guys-exp{
+	margin 10px;
+	width: 1000px;
+	background-color: rgba(47, 73, 147, 0.5);
+	color: rgba(255, 255, 255, 1);
+	border: 2px solid rgba(84, 0, 122, 1);
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*colors:*/
+/*rgba(84, 0, 122, 1)*/   /*======== Dark Blue*/
+/*rgba(175, 25, 25, 1)*/
+/*rgba(43, 111, 232, 1)*/
+/*rgba(5, 171, 101, 1)*/
+/*rgba(215, 240, 255, 1)*/
+/*rgba(47, 73, 147, 1)*/
+/*rgba(255, 225, 225, 1)*/
