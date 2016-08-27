@@ -1,18 +1,14 @@
 body{
 	background-image: url(assets/backgrounds/blue-stripes.jpg);
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
 	background-attachment: fixed;
-	/*position: fixed;*/
+
 }
-
 main{
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
-
 }
 #social{
 	font-family: 'Roboto', sans-serif;
@@ -55,88 +51,46 @@ main{
 	width: 116px;
 	margin: 5px;
 }
-#arrowDown{
-	width: 50px;
-	right: 70px;
-}
-#arrowRight{
-	width: 50px;
-}
 .smallSocial{
 	width: 0px;
 }
-#title{
-	max-width: 800px;
-	min-width: 300px;
-	max-height: 60px;
-	border-radius: 2px;
-	background-color: rgba(5, 171, 101, .5);
-	border: 2px solid rgba(84, 0, 122, 1);
-	margin: 10px;
-	margin-top: 90px;
-	padding: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+
+#map{
+	margin: 10px 30px;
+	padding: 0px;
 	box-sizing: border-box;
-}
-#will{
-	font-family: 'Roboto', sans-serif;
-	color: rgba(200, 200, 200, 1.0);
-}
-#bio{
-	background-color: rgba(200, 200, 200, 1.0);
 	border: 2px solid rgba(84, 0, 122, 1);
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	border-radius: 2px;
-	min-width: 500px;
-	max-width: 1000px;
-	padding: 15px;
-	margin: 10px;
-	box-sizing: border-box;
-	margin: 10px;
+	width: 1000px;
+	height: 450px;
 }
-#pic{
-	width: 100px;
-	float: left;
-	margin: 10px;
+#five-guys-map{
+	width: 1000px;
+	height: 450px;
 }
-.link{
-	text-decoration: none;
-	color: rgba(5, 171, 101, 1);
 
-}
-.link:hover{
-	background-color: rgba(0, 0, 0, 1);
-	color: rgba(5, 171, 101, 1);
-	font-weight: bold;
 
-}
-#school-link{
-	text-decoration: none;
-	color: rgba(47, 73, 147, 1);
-
-}
-#school-link:hover{
-	color: rgba(5, 171, 101, 1);
-	background-color: rgba(0, 0, 0, 1);
-	font-weight: bold;
-}
-#resume{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+#five-guys-exp{
+	margin 10px;
+	width: 1000px;
 	background-color: rgba(47, 73, 147, 0.5);
 	color: rgba(255, 255, 255, 1);
 	border: 2px solid rgba(84, 0, 122, 1);
-	border-radius: 2px;
-	min-width: 500px;
-	max-width: 1000px;
-	padding: 15px;
-	margin: 10px;
+	padding: 10px;
 	box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -147,7 +101,7 @@ main{
 
 
 /*colors:*/
-/*rgba(84, 0, 122, 1)*/
+/*rgba(84, 0, 122, 1)*/   /*======== Dark Blue*/
 /*rgba(175, 25, 25, 1)*/
 /*rgba(43, 111, 232, 1)*/
 /*rgba(5, 171, 101, 1)*/
