@@ -9,7 +9,6 @@ main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 #social{
 	font-family: 'Roboto', sans-serif;
@@ -57,33 +56,27 @@ main{
 }
 
 #map{
+	margin: 10px 30px;
 	padding: 0px;
 	box-sizing: border-box;
 	border: 2px solid rgba(84, 0, 122, 1);
-	min-width: 500px;
-	max-width: 1000px;
-	min-height: 225px;
-	max-height: 450px;
-	margin: 160px 10px 10px 10px;
+	width: 1000px;
+	height: 450px;
 }
-#five-guys-map{
-
+#gamestop-map{
 	width: 1000px;
 	height: 450px;
 }
 
 
-#five-guys-exp{
-	margin: 10px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	border-radius: 2px;
-	min-width: 500px;
-	padding: 15px;
+#gamestop-exp{
+	margin 10px;
+	min-width: 300px;
 	max-width: 1000px;
 	background-color: rgba(47, 73, 147, 0.5);
 	color: rgba(255, 255, 255, 1);
 	border: 2px solid rgba(84, 0, 122, 1);
+	padding: 10px;
 	box-sizing: border-box;
 }
 
