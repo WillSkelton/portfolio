@@ -89,11 +89,14 @@ main{
 	max-height: 450px;
 	margin: 160px 10px 10px 10px;
 }
-#swillys-map{
+#home-depot-map{
+
 	width: 1000px;
 	height: 450px;
 }
-#swillys-exp{
+
+
+#home-depot-exp{
 	margin: 10px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -107,9 +110,37 @@ main{
 	box-sizing: border-box;
 }
 
-.sw-description{
+.fg-description{
 	color: rgba(5, 171, 101, 1);
 }
-#sw{
+#fg{
 	color: rgba(255, 25, 25, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*colors:*/
+/*rgba(84, 0, 122, 1)*/    /*======== Purple*/
+/*rgba(175, 25, 25, 1)*/   /*======== Red*/
+/*rgba(43, 111, 232, 1)*/  /*======== Blue*/
+/*rgba(5, 171, 101, 1)*/   /*======== Green*/
+/*rgba(215, 240, 255, 1)*/ /*======== Light Blue*/
+/*rgba(47, 73, 147, 1)*/   /*======== Dark Blue*/
+/*rgba(255, 225, 225, 1)*/ /*======== Pink*/
