@@ -81,7 +81,7 @@ main{
 
 #map{
 	padding: 0px;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	border: 2px solid rgba(84, 0, 122, 1);
 	min-width: 500px;
 	max-width: 1000px;
