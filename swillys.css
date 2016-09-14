@@ -79,7 +79,6 @@ main{
 	margin: 2px;
 }
 
-
 #map{
 	padding: 0px;
 	box-sizing: border-box;
@@ -90,11 +89,11 @@ main{
 	max-height: 450px;
 	margin: 160px 10px 10px 10px;
 }
-#gamestop-map{
+#swillys-map{
 	width: 1000px;
 	height: 450px;
 }
-#gamestop-exp{
+#swillys-exp{
 	margin: 10px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -107,36 +106,10 @@ main{
 	border: 2px solid rgba(84, 0, 122, 1);
 	box-sizing: border-box;
 }
-.gs-description{
+
+.sw-description{
 	color: rgba(5, 171, 101, 1);
 }
-#gs{
-	color: rgba(255, 25, 25, 1)
+#sw{
+	color: rgba(255, 25, 25, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*colors:*/
-/*rgba(84, 0, 122, 1)*/   /*======== Dark Blue*/
-/*rgba(175, 25, 25, 1)*/
-/*rgba(43, 111, 232, 1)*/
-/*rgba(5, 171, 101, 1)*/
-/*rgba(215, 240, 255, 1)*/
-/*rgba(47, 73, 147, 1)*/
-/*rgba(255, 225, 225, 1)*/

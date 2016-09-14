@@ -12,6 +12,8 @@ function expandSocialIcons(){
 		logoArray[1].style.width = '75px';
 		logoArray[2].style.height = '75px';
 		logoArray[2].style.width = '75px';
+		logoArray[3].style.height = '75px';
+		logoArray[3].style.width = '75px';
 
 	}
 	else {
@@ -24,6 +26,8 @@ function expandSocialIcons(){
 		logoArray[1].style.width = '0px';
 		logoArray[2].style.height = '0px';
 		logoArray[2].style.width = '0px';
+		logoArray[3].style.height = '0px';
+		logoArray[3].style.width = '0px';
 	}
 }
 var generalIcon = document.getElementById('generalIcon');
