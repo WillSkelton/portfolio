@@ -15,26 +15,26 @@ const portfolio = angular.module('portfolio', [ngTouch, ngAnimate, uiRouter, ngF
 
 let context = require.context('./config/', true, /\.js$/);
 context.keys().forEach( path => {
-  cfgram.config(context(path));
+  portfolio.config(context(path));
 });
 
 context = require.context('./view/', true, /\.js$/);
 context.keys().forEach( key => {
   let name = pascalcase(path.basename(key, '.js'));
   let module = context(key);
-  cfgram.controller(name, module);
+  portfolio.controller(name, module);
 });
 
 context = require.context('./service/', true, /\.js$/);
 context.keys().forEach( key => {
   let name = camelcase(path.basename(key, '.js'));
   let module = context(key);
-  cfgram.service(name, module);
+  portfolio.service(name, module);
 });
 
 context = require.context('./component/', true, /\.js$/);
 context.keys().forEach( key => {
   let name = camelcase(path.basename(key, '.js'));
   let module = context(key);
-  cfgram.component(name, module);
+  portfolio.component(name, module);
 });
