@@ -2,15 +2,22 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "William Fenway Skelton",
+  "license": "ISC",
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js",
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
     "heroku-postbuild": "webpack -p"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "6.9.5",
+    "npm": "3.10.10"
+  },
   "dependencies": {
     "angular": "^1.6.3",
     "angular-animate": "^1.6.3",
